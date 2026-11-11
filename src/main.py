@@ -20,7 +20,10 @@ def main():
             show_cars()
 
 def show_cars():
-    print(namyeshgah)
+    i = 0
+    for car in namyeshgah:
+        i += 1
+        print(f'{i}) {car['name']}')
 
 def add_car():
     car = {}
